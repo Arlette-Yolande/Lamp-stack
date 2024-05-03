@@ -47,23 +47,31 @@ Step 1: Create a Virtual Server on AWS
 
 
 4- Click create a new key pair, use any name of your choice as the name for the pem file and select .pem.
-*       Linux/Mac users, choose .pem for use with openssh. This allows you to connect to your server using open ssh clients.
+
+  *Linux/Mac users, choose .pem for use with openssh. This allows you to connect to your server using open ssh clients.
 
 ![picture](./images/I-3.png)
+
 ![picture](./images/I-4.png)
+
 ![picture](./images/I-5.png)
+
 ![picture](./images/I-6.png)
+
 ![picture](./images/I-7.png)
+
 ![picture](./images/I-8.png)
+
 ![picture](./images/I-9.png)
 
-*       For windows users choose .ppk for use with putty. Putty is a software that lets you connect remotely to servers
+ *For windows users choose .ppk for use with putty. Putty is a software that lets you connect remotely to servers
 
 5- Save your private key (.pem file) securely and do not share it with anyone! If you lose it, you will not be able to connect to your server ever again.
 
 see the below images.
 
 ![picture](./images/I-10.png)
+
 ![picture](./images/I-11.png)
 
 * On your local computer, open the terminal and change directory to the Downloads folder, type
