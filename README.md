@@ -71,7 +71,6 @@ Step 1: Create a Virtual Server on AWS
 see the below images.
 
 ![picture](./images/I-10.png)
-
 ![picture](./images/I-11.png)
 
 * On your local computer, open the terminal and change directory to the Downloads folder, type
@@ -209,9 +208,9 @@ Then, create and open a new configuration file in Apache’s sites-available dir
 
         `sudo vi /etc/apache2/sites-available/projectlamp.conf`
 
-This will create a new blank file. Paste in the following bare-bones configuration by hitting on i on the keyboard to enter the insert mode, and paste the text:
+This will create a new blank file. Paste in the following bare-bones configuration by hitting on i on the keyboard to enter the insert mode, and paste the text:     
 
-        <VirtualHost *:80>
+   <VirtualHost *:80>
             ServerName projectlamp
             ServerAlias www.projectlamp 
             ServerAdmin webmaster@localhost
@@ -220,7 +219,10 @@ This will create a new blank file. Paste in the following bare-bones configurati
             CustomLog ${APACHE_LOG_DIR}/access.log combined
         </VirtualHost>
 
+                    
+
 ![picture](./images/I-22.png)
+
 
 You can use the ls command to show the new file in the sites-available directory
 
